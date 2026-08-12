@@ -21,7 +21,7 @@ phases:
             - echo "Pre-Build phase is now completed"
     build:
         commands:
-            - cd "CI CD Pipline Code"
+            - cd "CI_CD_Pipeline_Code"
             - echo "we are currently on build phase"
             - echo "Build Activity is completed"
             - echo "Run Basic check whether Website is ready for use"
