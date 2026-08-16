@@ -34,5 +34,6 @@ phases:
             - echo "post_build phase activity is completed. Moving next to Artifacts"
 
 artifacts:
-    files:
+  base-directory: CI_CD_Pipeline_Code
+  files:
     - '**/*'
